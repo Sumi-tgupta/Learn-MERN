@@ -1,7 +1,6 @@
 # MERN Stack Complete Developer Guide & README
 
-**Last Updated:** January 4, 2026
-**Version:** 2.0 (Enhanced with Video Course Content)
+
 **Difficulty Level:** Beginner to Intermediate
 
 ---
@@ -203,7 +202,7 @@ app.listen(PORT, () => {
 
 ## Frontend Development
 
-### Section 1: React Fundamentals (Video Course Content)
+### Section 1: React Fundamentals 
 
 #### 1.1 Components - The Building Blocks
 React is all about components. Everything is a component.
@@ -302,7 +301,7 @@ function Counter() {
 - State updates are asynchronous
 - Re-render happens when state changes
 
-#### 1.5 Effects - Side Operations (Video Key Concept)
+#### 1.5 Effects - Side Operations 
 useEffect runs code after component renders.
 
 ```javascript
@@ -464,7 +463,7 @@ function App() {
 }
 ```
 
-### Section 2: Advanced React Patterns (From Video Courses)
+### Section 2: Advanced React Patterns 
 
 #### 2.1 Context API - Global State Management
 Context API solves the problem of prop drilling (passing props through many levels).
@@ -618,7 +617,7 @@ function ExpensiveComponent({items}) {
 
 ## Backend Development
 
-### Section 3: Node.js & Express (Video Course Content)
+### Section 3: Node.js & Express 
 
 #### 3.1 Understanding Node.js
 Node.js is JavaScript runtime that runs outside the browser.
@@ -736,7 +735,7 @@ app.post('/api/submit', (req, res) => {
 
 ## Database & MongoDB
 
-### Section 4: MongoDB & Mongoose (Video Course Content)
+### Section 4: MongoDB & Mongoose 
 
 #### 4.1 What is MongoDB?
 MongoDB is a NoSQL database that stores JSON-like documents.
