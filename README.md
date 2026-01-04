@@ -1241,28 +1241,36 @@ localStorage.setItem('token', newToken.data.token);
 ## FAQ
 
 **Q: Which is better - SQL or NoSQL?**
+
 A: MongoDB (NoSQL) is better for flexible, rapidly changing schemas. SQL is better for complex relationships and transactions.
 
+
 **Q: How do I deploy both frontend and backend?**
+
 A: You can deploy them separately or together. Common approaches:
 - Deploy React to Vercel/Netlify
 - Deploy Node.js to Heroku/Railway
 - Both on AWS
 
+
 **Q: How secure are passwords with bcrypt?**
+
 A: Bcrypt is very secure - it uses salt and multiple rounds of hashing. Never store plain text passwords.
 
+
 **Q: Can I build real-time features?**
+
 A: Yes! Use Socket.io for real-time communication:
 ```bash
 npm install socket.io
 ```
 
+
 ---
 
 ## Learning Resources
 
-### Recommended Learning Videos (From Provided YouTube Channels):
+### Recommended Learning Videos:
 1. **React Fundamentals** - Components, Props, State, Hooks
 2. **Node.js & Express** - Server setup, routing, middleware
 3. **MongoDB & Mongoose** - Database design and operations
@@ -1312,5 +1320,3 @@ npm install socket.io
 
 **Happy Coding! Remember:** Building projects is the best way to learn. Start small, build incrementally, and don't be afraid to make mistakes. Every error is a learning opportunity!
 
-**Last Updated:** January 4, 2026
-**Document Version:** 2.0 (Enhanced with Video Course Content)
